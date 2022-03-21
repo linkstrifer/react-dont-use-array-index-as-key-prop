@@ -57,7 +57,7 @@ export default function App() {
       </form>
 
       <div>
-        <h2>Index as key</h2>
+        <h2>Array index as key prop</h2>
         {items.map((content, index) => (
           <Item
             onClick={() => {
@@ -73,7 +73,7 @@ export default function App() {
       </div>
 
       <div>
-        <h2>Unique key</h2>
+        <h2>Unique key prop</h2>
         {items.map((content, index) => (
           <Item
             onClick={() => {
